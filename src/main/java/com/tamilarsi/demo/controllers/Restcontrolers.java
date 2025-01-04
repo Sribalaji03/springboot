@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Restcontrolers {
     @GetMapping("/")
     public String welcome() {
-        return "Tamilwelcome";
+        return "Welcome to tamilarsi";
     }
 }
